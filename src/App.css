@@ -1,38 +1,360 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap");
+
+:root {
+  --pinkColor: #fb006e;
+  --blasckColor: #000;
+  --grayColor: #737272;
+  --whiteColor: #fff;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  background-color: #f9f7f7;
+}
+h1 {
+  font-size: 5em;
+  font-family: Impact, "Arial", sans-serif;
+  font-weight: 700;
+  color: var(--pinkColor);
+  margin: 0.5em 0;
+}
+
+/* Header  */
+.Header {
+  padding: 1em 1.3em;
+}
+.Header .navbar-toggler-icon {
+  color: var(--blasckColor) !important;
+}
+.Header .logoBrand {
+  width: 230px;
+}
+.Header .nav-link {
+  font-family: Impact, "Arial", sans-serif;
+  font-size: 1.4em;
+  color: var(--grayColor);
+  transition: 200ms all ease-in-out;
+  margin: 0 0.5em;
+}
+.Header .nav-link:hover {
+  color: var(--blackColor);
+}
+.Header .active {
+  color: var(--pinkColor);
+}
+.Header .active:hover {
+  color: var(--pinkColor);
+}
+.Header .SocialLinks a {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+.Header .SocialLinks img {
+  height: 30px;
+}
+
+/* Home Section */
+.HomeSection {
+  padding: 2em 0;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.HomeSection .MainContent {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.HomeSection .MainContent p {
+  font-size: 1.2em;
+  text-align: justify;
+}
+.HomeSection .mintBtn {
+  color: var(--whiteColor);
+  background-color: var(--pinkColor);
+  display: inline-block;
+  padding: 1em 2em;
+  border-radius: 23px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  margin: 1em 0;
+}
+.HomeSection img {
+  max-width: 100%;
+  height: auto;
+}
+.HomeSection .CardImages {
+  position: relative;
+  max-width: 1050px;
+  height: 860px;
+  overflow: hidden;
+  margin: 3em auto;
+}
+.HomeSection .background,
+.HomeSection .heart,
+.HomeSection .text {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  transform: translateY(calc((866px - 100%) * 0.375143));
+}
+.HomeSection .background {
+  z-index: 1;
+}
+.HomeSection .heart {
+  z-index: 5;
+}
+.HomeSection .text {
+  z-index: 3;
+}
+.HomeSection .killer {
+  position: relative;
+  z-index: 6;
+  box-shadow: inset 0px 0px 100px 10px #f9f7f7;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Story Section  */
+.StorySection {
+  padding: 2em;
+  text-align: center;
+}
+.StorySection .storyContent {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+.StorySection .storyContent p {
+  font-size: 1.2em;
+  margin: 1em 0;
+}
+
+/* ROADMAP */
+
+.Roadmap {
+  padding: 2em 0;
+}
+.Roadmap h1,
+.Roadmap .subText {
+  text-align: center;
+  max-width: 900px;
+  margin: 0.5em auto;
+}
+.Roadmap p {
+  font-weight: 500;
+}
+.Roadmap .subText {
+  margin-bottom: 2em;
+}
+.Roadmap .roadmapContent {
+  position: relative;
+  z-index: 55;
+  padding: 1em 0;
+}
+.Roadmap h2 {
+  color: var(--pinkColor);
+  font-weight: 500;
+  margin-bottom: 0.2em;
+}
+.Roadmap .pointLine {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-color: var(--pinkColor);
+  width: 3px;
+  height: 100%;
+}
+.Roadmap .point-1 {
+  max-width: 500px;
+  margin-left: auto;
+  padding: 2em 0;
+  margin-right: 6em;
+}
+.Roadmap .point-2 {
+  max-width: 500px;
+  text-align: right;
+  margin-left: 6em;
+}
+.Roadmap .pointIndex {
+  position: absolute;
+  left: 48.4%;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #f9f7f7;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+/* Art Section  */
+.ArtSection {
+  padding: 3em 0;
+}
+.ArtSection p {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 0.2em;
+}
+.ArtSection a {
+  color: var(--blasckColor);
+}
+.ArtSection .feature {
+  display: flex;
+  justify-content: space-around;
+}
+.ArtSection .Card {
+  color: var(--pinkColor);
+  margin: 0.5em;
+}
+.ArtSection .Card h5 {
+  margin: 0.3em 0;
+  font-size: 1em;
+}
+.ArtSection img {
+  max-width: 100%;
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* ARTIST SECTION  */
+.Feature {
+  padding: 5em 0;
+}
+.Feature .socialLink {
+  margin-right: 1em;
+  opacity: 0.7;
+  transition: 200ms all ease-in-out;
+}
+.Feature p {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+.Feature .socialLink:hover {
+  margin-right: 1em;
+  opacity: 1;
+}
+.Feature .socialLink img {
+  height: 30px;
+}
+
+/* Artist Section  */
+.ArtistSection {
+  padding: 4em 0;
+}
+.ArtistSection p {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+/* TeamSection */
+.TeamSection {
+  padding: 2em 0;
+}
+.TeamSection p {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+.TeamSection p > a {
+  color: var(--blasckColor);
+  text-decoration: underline;
+}
+.TeamSection .teamCards {
+  padding: 2em 0;
+}
+.TeamSection .teamCards h5 {
+  margin: 0.5em 0;
+}
+.TeamSection .teamCards a {
+  opacity: 0.6;
+  transition: 200ms all ease-in-out;
+}
+.TeamSection .teamCards a:hover {
+  opacity: 1;
+}
+/* InfoSection */
+.InfoSection {
+  padding: 2em;
+}
+.InfoSection p {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+.Footer {
+  padding: 2em 0;
+}
+.Footer form {
+  display: flex;
+}
+.Footer .search input {
+  display: inline-block;
+  border-radius: 20px;
+  padding: 0.7em;
+  width: 100%;
+  max-width: 450px;
+  border: 1px solid #000;
+}
+.Footer .search input::placeholder {
+  font-style: italic;
+}
+.Footer .search button {
+  border-radius: 20px;
+  padding: 0.7em 1em;
+  border: none;
+  background-color: var(--pinkColor);
+  margin-left: 0.2em;
+}
+.Footer .logoBrand {
+  width: 20%;
+}
+.Footer .search {
+  width: 20%;
+}
+.Footer .footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Footer .SocialLinks a {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+.Footer .SocialLinks img {
+  height: 30px;
+}
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 0.9em !important;
   }
-  to {
-    transform: rotate(360deg);
+  h1 {
+    font-size: 2em;
+  }
+  .ArtSection .feature {
+    display: block;
+    text-align: center;
+  }
+  .Footer .footerContent {
+    display: block;
+  }
+  .Roadmap .pointLine {
+    left: 21px;
+  }
+  .Roadmap .pointIndex {
+    left: 0;
+  }
+  .Roadmap .point-1 {
+    text-align: start;
+    width: 100% !important;
+    margin-left: 1em;
+    padding-left: 1em;
+  }
+  .Roadmap .point-2 {
+    margin-left: 1em;
+    text-align: start;
+    width: 100% !important;
+    padding-left: 1em;
+  }
+  .Roadmap .pointText {
+    padding-left: 2em;
   }
 }
