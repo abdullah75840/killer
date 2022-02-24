@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "./Fade";
 
 const TeamSection = () => {
   const teamCard = [
@@ -41,31 +42,47 @@ const TeamSection = () => {
   ];
   return (
     <section className="TeamSection">
-      <h1>TEAM</h1>
-      <p>
-        uwulabs is the talented team of builders behind the{" "}
-        <a href="">uwucrew</a> - an anime-inspired NFT project with a fun art
-        focused community!
-      </p>
-      <p>
-        We have collaborated with Zeronis to assist in development and community
-        management for Killer GF. We are excited to work with Zeronis and are
-        looking forward to Killer GF's future!
-      </p>
+      <Fade>
+        <h1>TEAM</h1>
+      </Fade>
+      <Fade>
+        <p>
+          uwulabs is the talented team of builders behind the{" "}
+          <a href="">uwucrew</a> - an anime-inspired NFT project with a fun art
+          focused community!
+        </p>
+      </Fade>
+      <Fade>
+        <p>
+          We have collaborated with Zeronis to assist in development and
+          community management for Killer GF. We are excited to work with
+          Zeronis and are looking forward to Killer GF's future!
+        </p>
+      </Fade>
       <div className="row">
         {teamCard.map((item) => (
           <div className="col-md-4">
             <div className="teamCards">
-              <div>
-                <img src={`/images/${item.img}`} alt="" />
-              </div>
-              <h5>{item.title}</h5>
-              <div>{item.text}</div>
-              <div>
-                <a href="">
-                  <img src={`/images/${item.icon}`} alt="" />
-                </a>
-              </div>
+              <Fade>
+                <div>
+                  <img
+                    className="img-fluid"
+                    src={`/images/${item.img}`}
+                    alt=""
+                  />
+                </div>
+              </Fade>
+              <Fade>
+                <h5>{item.title}</h5>
+                <div>{item.text}</div>
+              </Fade>
+              <Fade>
+                <div>
+                  <a href="">
+                    <img src={`/images/${item.icon}`} alt="" />
+                  </a>
+                </div>
+              </Fade>
             </div>
           </div>
         ))}

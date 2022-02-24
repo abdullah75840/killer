@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "./Fade";
 
 const InfoSection = () => {
   const infoData = [
@@ -60,18 +61,20 @@ const InfoSection = () => {
       <h1>MORE INFO</h1>
       <div>
         {infoData.map((item) => (
-          <div className="d-flex my-3">
-            <span>
-              <img
-                style={{ width: "30px" }}
-                src={`/images/${item.heart}`}
-                alt=""
-              />
-            </span>
-            <span className="mx-3">
-              <p>{item.text}</p>
-            </span>
-          </div>
+          <Fade>
+            <div className="d-flex my-3">
+              <span>
+                <img
+                  style={{ width: "30px" }}
+                  src={`/images/${item.heart}`}
+                  alt=""
+                />
+              </span>
+              <span className="mx-3">
+                <p>{item.text}</p>
+              </span>
+            </div>
+          </Fade>
         ))}
       </div>
     </section>

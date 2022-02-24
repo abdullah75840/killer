@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "./Fade";
 
 const ArtistSection = () => {
   const itemData = [
@@ -19,24 +20,28 @@ const ArtistSection = () => {
     <section className="ArtistSection">
       <div className="row">
         <div className="col-md-6">
-          <h1>INSPIRATION</h1>
-          <p>
-            "The inspiration for the project came from the combination of my
-            love for creating badass and beautiful female characters while also
-            bringing a bit of the yandere flair to the mix. The project is also
-            a special collaboration with uwulabs, creator of uwucrew."
-          </p>
-          <p className="text-end">- Zeronis, artist of Killer GF</p>
+          <Fade>
+            <h1>INSPIRATION</h1>
+            <p>
+              "The inspiration for the project came from the combination of my
+              love for creating badass and beautiful female characters while
+              also bringing a bit of the yandere flair to the mix. The project
+              is also a special collaboration with uwulabs, creator of uwucrew."
+            </p>
+            <p className="text-end">- Zeronis, artist of Killer GF</p>
+          </Fade>
         </div>
         <div className="col-md-6">
           <div className="row my-5">
             {itemData.map((item) => (
               <div className="col-md-6">
-                <img
-                  className="img-fluid m-3"
-                  src={`/images/${item.image}`}
-                  alt=""
-                />
+                <Fade>
+                  <img
+                    className="img-fluid m-3"
+                    src={`/images/${item.image}`}
+                    alt=""
+                  />
+                </Fade>
               </div>
             ))}
           </div>
