@@ -24,50 +24,28 @@ const StorySection = () => {
         </Fade>
         <Fade>
           <p>
-            Cerise is a woman of many faces. Yet by spy networks and online
-            sleuths, she is known only as the Killer GF assassin— the
-            uncatchable killer who has no true face. The secret to her success
-            lies in one supernatural gift. Wielding the Mirror of Narcissus, she
-            holds at her fingertips the ability to reform her appearance into
-            any disguises and powers using this dark artifact. This mirror,
-            which consumes both the life essences and appearance of her kills,
-            was a gift from the Crimson God himself. A heirloom of sorts for his
-            favorite dearly beloved killer to better serve him by carrying out
-            the critical assassinations that bring down societies, religions,
-            and supernatural entities. Gods, even with their gifts, can be cruel
-            with jests that transcend across the multiverse…
+            Hi I’m waifumia!! Im 19 years old & I'm obsessed with the world of NFTs 😇 I’m thrilled to be apart of this
+            project. I'm eager to build an epic community & provide REAL value to all of my supporters the rewards for
+            holders will be disclosed in our discord server! 😈 thank you so much! u guys are my everything !! ^-^
           </p>
         </Fade>
         <Fade>
           <p>
-            Knowing little of the trick inlaid within the Mirror, Cerise used it
-            once more. But this one, being the 7,777th time triggered a breakage
-            of dimensions within the mirror, pulling forth 7,777 versions of
-            Cerise herself out into the same dimension, wearing what appears to
-            be every disguise she has ever worn in the past for her kills.
+            WaifuDAO is a worldwide project that aims to improve the empowerment of content creators like myself! my
+            team and I are working in providing new collections and possibilities with actual REAL utility, this will
+            help encourage a more open community for everyone in which content will be shared with creators and their
+            following directly without any intermediaries which will empower both creators and followers 💕
           </p>
         </Fade>
         <Fade>
-          <p>
-            Now that is a lot of deadly assassins in one room. But get this,
-            each being sentient and believing that she is the real Cerise, they
-            agree the only way to determine the one true Cerise would be to
-            participate in a game. A deadly set of challenges within the
-            metaverse where by playing and winning hearts, the Cerises compete
-            against each other using daring and cunning tactics with only one
-            coming out of it alive by the end. They say the biggest enemy
-            standing in your way is yourself, but did they mean all 7,777?
-          </p>
+          <p className="mb-0">Our core values are:</p>
+          <p className="mt-0">Wellness, Affection, Innovation, Freedom, Unity</p>
         </Fade>
         <div className="row my-5">
           {imageData.map((item) => (
             <div className="col-md-6">
               <Fade>
-                <img
-                  className="img-fluid m-3"
-                  src={`/images/${item.image}`}
-                  alt=""
-                />
+                <img className="img-fluid m-3" src={`/images/${item.image}`} alt="" />
               </Fade>
             </div>
           ))}
