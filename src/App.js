@@ -12,7 +12,7 @@ import TeamSection from "./components/TeamSection";
 
 function App() {
   return (
-    <div className="App" style={{ background: "linear-gradient(0deg,#ffba96 9%,#f4ab94 31%,#d7848f 74%,#c3698c)" }}>
+    <div className="App" style={{ background: "linear-gradient(0deg,#ffba96 0%,#f4ab94 0%,#d7848f 74%,#c3698c)" }}>
       <img src="/images/bg.svg" alt="" style={{ position: "absolute" }} />
       <Header />
       <div className="container">

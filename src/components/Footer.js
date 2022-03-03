@@ -17,8 +17,9 @@ const Footer = () => {
                 </button>
               </form>
             </div>
-            <a className="text-center" href="">
-              <img className="logoBrand" src="/images/logo.png" alt="" />
+            <a className="text-center brand" href="">
+              {/* <img className="logoBrand" src="/images/logo.png" alt="" /> */}
+              WaifuDao
             </a>
             <div className="links">
               <h4>FOLLOW US</h4>

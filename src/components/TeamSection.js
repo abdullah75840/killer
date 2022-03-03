@@ -18,7 +18,7 @@ const TeamSection = () => {
     {
       img: "team 3.jpg",
       title: "Natalie - Community Manager",
-      text: "Chase is the website developer for Killer GF. Working to make sure everything is looking killer online.",
+      text: "Chase is the website developer for WaifuDao. Working to make sure everything is looking WaifuDao online.",
       icon: "twitter.svg",
     },
     {
@@ -53,8 +53,8 @@ const TeamSection = () => {
       </Fade>
       <Fade>
         <p>
-          We have collaborated with Zeronis to assist in development and community management for Killer GF. We are
-          excited to work with Zeronis and are looking forward to Killer GF's future!
+          We have collaborated with Zeronis to assist in development and community management for WaifuDao. We are
+          excited to work with Zeronis and are looking forward to WaifuDao's future!
         </p>
       </Fade>
       <div className="row">

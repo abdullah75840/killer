@@ -6,16 +6,15 @@ const HomeSection = () => {
     <section className="HomeSection">
       <div className="MainContent">
         <Fade>
-          <h1>WELCOME TO KILLER GF</h1>
+          <h1>WELCOME TO WaifuDao</h1>
           <p>
-            Killer GF is a 7,777 generative portrait art collection by a former
-            Riot Games Artist, Zeronis, with over 240 meticulously designed
-            features that contrasts cute and aesthetically appealing girlfriends
-            that also happen to be dangerous assassins.
+            WaifuDao is a 7,777 generative portrait art collection by a former Riot Games Artist, Zeronis, with over 240
+            meticulously designed features that contrasts cute and aesthetically appealing girlfriends that also happen
+            to be dangerous assassins.
           </p>
           <div>
             <a href="#" className="mintBtn">
-              Mint Killer GF NFTs
+              Mint WaifuDao NFTs
             </a>
           </div>
         </Fade>

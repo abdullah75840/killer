@@ -41,6 +41,14 @@ p {
 .Header {
   padding: 1em 1.3em;
 }
+.Header .navbar-brand,
+Footer .brand {
+  font-size: 2.5em;
+  font-family: Impact, "Arial", sans-serif;
+  font-weight: 700;
+  color: var(--pinkColor);
+  text-decoration: none;
+}
 .Header .navbar-toggler-icon {
   color: var(--blasckColor) !important;
 }

@@ -23,12 +23,11 @@ const ArtistSection = () => {
           <Fade>
             <h1>INSPIRATION</h1>
             <p>
-              "The inspiration for the project came from the combination of my
-              love for creating badass and beautiful female characters while
-              also bringing a bit of the yandere flair to the mix. The project
-              is also a special collaboration with uwulabs, creator of uwucrew."
+              "The inspiration for the project came from the combination of my love for creating badass and beautiful
+              female characters while also bringing a bit of the yandere flair to the mix. The project is also a special
+              collaboration with uwulabs, creator of uwucrew."
             </p>
-            <p className="text-end">- Zeronis, artist of Killer GF</p>
+            <p className="text-end">- Zeronis, artist of WaifuDao</p>
           </Fade>
         </div>
         <div className="col-md-6">
@@ -36,11 +35,7 @@ const ArtistSection = () => {
             {itemData.map((item) => (
               <div className="col-md-6">
                 <Fade>
-                  <img
-                    className="img-fluid m-3"
-                    src={`/images/${item.image}`}
-                    alt=""
-                  />
+                  <img className="img-fluid m-3" src={`/images/${item.image}`} alt="" />
                 </Fade>
               </div>
             ))}
