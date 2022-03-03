@@ -5,70 +5,46 @@ const InfoSection = () => {
   const infoData = [
     {
       heart: "black heart.svg",
-      text: "Mint price: 0.08 ETH",
+      text: "6969  supply  it includes free OF lifetime for every holder + members only discord",
     },
     {
       heart: "black heart.svg",
-      text: "uwucrew NFT whitelist discount mint price: 0.065 ETH",
+      text: "3696- free 1 vid from tip menu every month ",
     },
     {
       heart: "black heart.svg",
-      text: "Whitelist and presale date: January 22nd 7:30 PM EST",
+      text: "1000 - vip 3 exclusive vids for free per month",
     },
     {
       heart: "black heart.svg",
-      text: "Public sale date: January 24th 7:30 PM EST",
+      text: "696 - 5 videos for free from the tip menu  every month ",
     },
     {
       heart: "black heart.svg",
-      text: "Reveal date: January 28th 7:30 PM EST",
+      text: "69 - XXX lives ( every 2 mo)",
     },
     {
       heart: "black heart.svg",
-      text: "Total NFTs: 7,777",
+      text: "9 1/1 - custom videos (every  2 mo) OR  XXX FaceTime  (every  2 mo)",
     },
     {
       heart: "black heart.svg",
-      text: "NFTs withheld for team: 100",
+      text: "0.069 mint ",
     },
     {
       heart: "black heart.svg",
-      text: "Traits: 8",
-    },
-    {
-      heart: "black heart.svg",
-      text: "Attributes: 240+",
-    },
-    {
-      heart: "black heart.svg",
-      text: "Royalty fees: 3%",
-    },
-    {
-      heart: "black heart.svg",
-      text: "Blockchain: Ethereum",
-    },
-    {
-      heart: "black heart.svg",
-      text: "NFT Standard: ERC-721",
-    },
-    {
-      heart: "black heart.svg",
-      text: "Asset hosting: IPFS",
+      text: "6.9% royalties",
     },
   ];
   return (
     <section className="InfoSection">
-      <h1>MORE INFO</h1>
+      <h1>ONLY FANS SUBS GET IN PRESALE</h1>
       <div>
         {infoData.map((item) => (
           <Fade>
             <div className="d-flex my-3">
               <span>
-                <img
-                  style={{ width: "30px" }}
-                  src={`/images/${item.heart}`}
-                  alt=""
-                />
+                <img style={{ width: "30px" }} src={`/images/${item.heart}`} alt="" />
               </span>
               <span className="mx-3">
                 <p>{item.text}</p>
