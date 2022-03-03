@@ -34,6 +34,7 @@ p {
   opacity: 1;
   transform: none;
   visibility: visible;
+  height: 100%;
 }
 
 /* Header  */
@@ -282,7 +283,7 @@ p {
   padding: 2em 0.5em;
   background-color: var(--whiteColor);
   margin-bottom: 0.5em;
-  height: 670px;
+  height: 100%;
   color: #721626;
 }
 .TeamSection .teamCards h5 {
