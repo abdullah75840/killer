@@ -64,7 +64,7 @@ const TeamSection = () => {
           <div className="col-md-4">
             <div className="teamCards">
               <Fade>
-                <div>
+                <div className="text-center">
                   <img
                     className="img-fluid"
                     src={`/images/${item.img}`}
@@ -75,8 +75,6 @@ const TeamSection = () => {
               <Fade>
                 <h5>{item.title}</h5>
                 <div>{item.text}</div>
-              </Fade>
-              <Fade>
                 <div>
                   <a href="">
                     <img src={`/images/${item.icon}`} alt="" />
