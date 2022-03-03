@@ -13,9 +13,13 @@ import TeamSection from "./components/TeamSection";
 function App() {
   return (
     <div className="App">
-      <Header />
+      <div style={{ background: "linear-gradient(0deg,#ffba96 9%,#f4ab94 31%,#d7848f 74%,#c3698c)" }}>
+        <Header />
+        <div className="container">
+          <HomeSection />
+        </div>
+      </div>
       <div className="container">
-        <HomeSection />
         <StorySection />
         <Roadmap />
         <ArtSection />
