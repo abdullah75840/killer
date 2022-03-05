@@ -111,7 +111,7 @@ Footer .brand {
   max-width: 100%;
   height: auto;
 }
-.HomeSection .CardImages {
+/* .HomeSection .CardImages {
   position: relative;
   max-width: 1050px;
   height: 860px;
@@ -140,7 +140,7 @@ Footer .brand {
   position: relative;
   z-index: 6;
   box-shadow: inset 0px 0px 100px 10px #f9f7f7;
-}
+} */
 
 /* Story Section  */
 .StorySection {

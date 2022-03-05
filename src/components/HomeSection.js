@@ -12,19 +12,20 @@ const HomeSection = () => {
             meticulously designed features that contrasts cute and aesthetically appealing girlfriends that also happen
             to be dangerous assassins.
           </p>
-          <div>
+          {/* <div>
             <a href="#" className="mintBtn">
               Mint WaifuDao NFTs
             </a>
-          </div>
+          </div> */}
         </Fade>
       </div>
       <Fade>
         <div className="CardImages">
-          <img className="background" src="/images/bg.jpg" alt="" />
-          <img className="heart" src="/images/bg 1.png" alt="" />
+          <img src="/images/9.png" alt="" />
+          {/* <img className="background" src="/images/9.png" alt="" /> */}
+          {/* <img className="heart" src="/images/bg 1.png" alt="" />
           <img className="text" src="/images/text.png" alt="" />
-          <img className="killer" src="/images/killer.png" alt="" />
+          <img className="killer" src="/images/killer.png" alt="" /> */}
         </div>
       </Fade>
     </section>
