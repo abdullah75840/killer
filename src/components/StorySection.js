@@ -4,16 +4,16 @@ import Fade from "./Fade";
 const StorySection = () => {
   const imageData = [
     {
-      image: "killer 1.jpg",
+      image: "1.png",
     },
     {
-      image: "killer 2.jpg",
+      image: "2.png",
     },
     {
-      image: "killer 3.jpg",
+      image: "3.png",
     },
     {
-      image: "killer 4.jpg",
+      image: "4.png",
     },
   ];
   return (

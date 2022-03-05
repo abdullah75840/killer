@@ -4,31 +4,31 @@ import Fade from "./Fade";
 const TeamSection = () => {
   const teamCard = [
     {
-      img: "team 1.jpg",
+      img: "5.png",
       title: "Kai - Model",
       text: "Helps with the collection design, and all smart contract needs.",
       icon: "twitter.svg",
     },
     {
-      img: "team 2.jpg",
+      img: "6.png",
       title: "Andrew - Developer",
       text: "Swag started his NFT Journey in early June of 2021. He now works full time in crypto, has a passion for collecting NFT's, and community building.",
       icon: "twitter.svg",
     },
     {
-      img: "team 3.jpg",
+      img: "7.png",
       title: "Natalie - Community Manager",
       text: "Chase is the website developer for WaifuDao. Working to make sure everything is looking WaifuDao online.",
       icon: "twitter.svg",
     },
     {
-      img: "team 4.jpg",
+      img: "8.png",
       title: "Penny - Social Media Manager",
       text: "Desto originally worked managing social media for a Collegiate-level Athletic Department and now pursues full time NFT social media work.",
       icon: "twitter.svg",
     },
     // {
-    //   img: "team 5.jpg",
+    //   img: "team 5.png",
     //   title: "Morello - Advisor",
     //   text: "Desto originally worked managing social media for a Collegiate-level Athletic Department and now pursues full time NFT social media work.",
     //   icon: "twitter.svg",
