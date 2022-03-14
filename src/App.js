@@ -16,7 +16,7 @@ function App() {
       className="App"
       // style={{ background: "linear-gradient(0deg,#ffba96 0%,#f4ab94 0%,#d7848f 74%,#c3698c)" }}
     >
-      <img src="/images/bg.svg" alt="" style={{ position: "absolute" }} />
+      <img src="/images/bg.svg" alt="" style={{ position: "absolute", zIndex: "-1" }} />
       <Header />
       <div className="container">
         <HomeSection />

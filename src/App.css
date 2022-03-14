@@ -15,7 +15,7 @@ body {
 h1 {
   font-size: 5em;
   font-family: Impact, "Arial", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--whiteColor);
   margin: 0.5em 0;
 }
@@ -45,7 +45,7 @@ p {
 Footer .brand {
   font-size: 2.5em;
   font-family: Impact, "Arial", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--pinkColor);
   text-decoration: none;
 }
