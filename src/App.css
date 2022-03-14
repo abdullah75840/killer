@@ -9,7 +9,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  /* background-color: #721626; */
+  background-color: #d5818f;
   color: var(--grayColor) !important;
 }
 h1 {
@@ -111,6 +111,11 @@ Footer .brand {
   max-width: 100%;
   height: auto;
 }
+.HomeSection .CardImages {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
 /* .HomeSection .CardImages {
   position: relative;
   max-width: 1050px;
@@ -179,7 +184,7 @@ Footer .brand {
   padding: 1em 0;
 }
 .Roadmap h2 {
-  color: var(--pinkColor);
+  color: purple;
   font-weight: 500;
   margin-bottom: 0.2em;
 }
@@ -187,7 +192,7 @@ Footer .brand {
   position: absolute;
   top: 0;
   left: 50%;
-  background-color: var(--pinkColor);
+  background-color: #ccc4ec;
   width: 3px;
   height: 100%;
 }
@@ -208,12 +213,14 @@ Footer .brand {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background-color: #721626;
+  background-color: #ccc4ec;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+.Roadmap img {
+  filter: invert(9%) sepia(76%) saturate(6233%) hue-rotate(296deg) brightness(86%) contrast(107%);
+}
 /* Art Section  */
 .ArtSection {
   padding: 3em 0;
@@ -312,6 +319,9 @@ Footer .brand {
   font-size: 1.3em;
   font-weight: 500;
 }
+.InfoSection img {
+  filter: invert(9%) sepia(76%) saturate(6233%) hue-rotate(296deg) brightness(86%) contrast(107%);
+}
 .Footer {
   padding: 2em 0;
   color: var(--whiteColor);
@@ -345,8 +355,10 @@ Footer .brand {
 }
 .Footer .footerContent {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .Footer .SocialLinks a {
   display: inline-block;

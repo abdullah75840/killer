@@ -38,7 +38,7 @@ const InfoSection = () => {
   ];
   return (
     <section className="InfoSection">
-      <h1>ONLY FANS SUBS GET IN PRESALE</h1>
+      <h1>MORE INFO</h1>
       <div>
         {infoData.map((item) => (
           <Fade>

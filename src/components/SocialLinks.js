@@ -2,14 +2,14 @@ import React from "react";
 
 const SocialLinks = () => {
   const iconsData = [
-    {
-      icon: "opensea.svg",
-      address: "#",
-    },
-    {
-      icon: "etherscan.svg",
-      address: "#",
-    },
+    // {
+    //   icon: "opensea.svg",
+    //   address: "#",
+    // },
+    // {
+    //   icon: "etherscan.svg",
+    //   address: "#",
+    // },
     {
       icon: "twitter.svg",
       address: "#",
@@ -18,10 +18,10 @@ const SocialLinks = () => {
       icon: "discord.svg",
       address: "#",
     },
-    {
-      icon: "medium.svg",
-      address: "#",
-    },
+    // {
+    //   icon: "medium.svg",
+    //   address: "#",
+    // },
   ];
   return (
     <div className="SocialLinks">

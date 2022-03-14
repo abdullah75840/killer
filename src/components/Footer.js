@@ -9,13 +9,14 @@ const Footer = () => {
         <div className="container-fluid">
           <div className="footerContent">
             <div className="search">
-              <h4>JOIN THE CLUB</h4>
-              <form action="">
+              {/* <h4>JOIN THE CLUB</h4> */}
+              {/* <form action="">
                 <input type="text" placeholder="Enter your email address" />
                 <button className="footerBtn">
                   <img src="/images/arrow.png" alt="" />
                 </button>
-              </form>
+              </form> */}
+              <p className="mb-0">2022 WaifuDao. All rights reserved</p>
             </div>
             <a className="text-center brand" href="">
               {/* <img className="logoBrand" src="/images/logo.png" alt="" /> */}
