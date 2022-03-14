@@ -27,7 +27,7 @@ function App() {
         {/* <ArtSection /> */}
         {/* <Feature /> */}
         {/* <ArtistSection /> */}
-        <TeamSection />
+        {/* <TeamSection /> */}
         <InfoSection />
       </div>
       <Footer />
